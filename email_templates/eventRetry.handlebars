@@ -1,0 +1,20 @@
+Hi,
+
+<p>{{message}}</p>
+
+<b>{{event}}</b>
+
+<br/>
+
+<p>Please use below sql query to find the event details</p>
+
+<p>SELECT a.EventID, a.EventDtTm, a.EventType, a.EventPayLoad, a.IPID, a.SecondIPID, a.ArngID, b.EventStatus, b.ProcessServer
+FROM CSEventStore a
+LEFT JOIN CSEventSequencing b ON a.EventID = b.EventID
+WHERE a.EventID = `{{eventID}}`</p>
+
+<p>Thank You</p>
+
+<p>Admin</p>
+
+<p>CS Event Service</p>

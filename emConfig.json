@@ -1,0 +1,10 @@
+{
+    "numActiveEventsMax": 10,
+    "noEventsWaitTime": 50000,
+    "reloadEventProcessorsInterval": 30000,
+    "reloadSQLParams": 300000,
+    "eventProcessorFolder": "/EventProcessors",
+    "sqlLoadParameters":[
+        "SELECT * FROM PCDCSParameters WHERE ParamType = 'CSEventManager"
+    ]
+}

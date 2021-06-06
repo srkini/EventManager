@@ -1,0 +1,28 @@
+{
+  "name": "cseventmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CSEventManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Srikanth Giridhar Kini",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mssql": "^7.1.0",
+    "node": "^16.1.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.1",
+    "nodemailer-handlebars": "^1.0.1",
+    "rotating-file-stream": "^2.1.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "log4js": "^6.3.0",
+    "mocha": "^8.4.0"
+  }
+}
